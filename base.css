@@ -8,7 +8,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    text-transform: none;
+    text-transform: capitalize;
     text-decoration: none;
 }
 
@@ -95,14 +95,14 @@ display: contents;
         margin-right:auto;
     }
    
-    #titre1 {
+#titre1 {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 200%;
         text-align: center;
         text-transform: none;
       }
 
-      #titre2 {
+#titre2 {
         text-align: center;
         text-transform: none;
       }
