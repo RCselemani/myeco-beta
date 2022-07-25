@@ -69,12 +69,9 @@ footer {
   .copyright {
     padding: 0.3em 1em;
     background-color: #25262e;
-  } */
-
-   .copyright p {
     font-size: 0.9em;
     text-align: center;
-  }
+   }
   @media screen and (max-width: 850px) {
     .row.primary {
       grid-template-columns: 1fr;

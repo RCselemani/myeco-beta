@@ -1,0 +1,57 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+/*Réparation*/
+    .text-center-reparation {
+      color: #2F2F2F;
+  }
+
+   h1, h2 {
+    font-family: "adelle-sans","Arial",sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    line-height: normal;
+    margin: 0.5em 0;
+    text-align: center;
+    text-transform: none;
+
+  }
+
+  #texte700 {
+    display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+  font-style: normal;
+  line-height: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #585858;
+  font-weight: normal;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  text-transform: none;
+
+  }
+
+  #texte800{
+    text-align: center;
+  }
+
+
+
+
+     

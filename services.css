@@ -1,3 +1,6 @@
+
+
+
 body{
 	margin: 0;
 	 padding: 0;
@@ -30,7 +33,12 @@ body{
   .about-section h1{
 	text-align: center;
   }
-
+  .border{
+	width: 100px;
+	height: 3px;
+	background: #1d702d;
+	margin: 40px auto;
+  }
   .about-section-row{
 	display: flex;
 	flex-wrap: wrap;
@@ -44,19 +52,19 @@ body{
   .about p{
 	text-align: justify;
 	margin-bottom: 20px;
-	color: #7E7C7A;
+	color: #000000;
 	font-size: 17px;
   }
-  .about a{
+  .about .button{
 	display: inline-block;
-	color: #7E7C7A;
+	color: #000000;
 	text-decoration: none;
 	border: 2px solid #1d702d;
 	border-radius: 24px;
 	padding: 8px 40px;
 	transition: 0.4s linear;
   }
-  .about a:hover{
+  .about .button:hover{
 	color: #fff;
 	background: #1d702d;
   }

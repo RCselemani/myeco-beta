@@ -46,7 +46,7 @@
     border: 1px solid #d1d1d1;
     text-transform : capitalize;
     background: none;
-    color : #a9a9a9;
+    color : #1D702D;
     outline: none;
 }
 
@@ -57,7 +57,7 @@
     border : none;
     outline: none;
     cursor: pointer;
-    background: #383838;
+    background: #1D702D;
     color: #fff;
     text-transform: capitalize;
     font-size : 15px;
@@ -84,7 +84,7 @@ width: 30px;
     padding : 10px 10vw;
     justify-content: center;
     list-style: none;
-    border-top: 1px solid #d1d1d1;
+    border-top: 1px solid #1D702D;
 
 }
 
