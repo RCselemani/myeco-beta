@@ -52,7 +52,7 @@ body{
   .about p{
 	text-align: justify;
 	margin-bottom: 20px;
-	color: #7E7C7A;
+	color: black;
 	font-size: 17px;
   }
   .about a{
@@ -69,5 +69,12 @@ body{
 	background: #1d702d;
   }
 
+ol {
 
+	margin: 0;
+	padding: 0;
+}
   
+h1, h2, h3, #jeune{
+	color: #E8CC06;
+}
