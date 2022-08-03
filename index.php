@@ -36,7 +36,7 @@
       <div class="article container">
       <article class="col-12 col-md-4 col-xl-4 mb-4">
               <figure id="montre1">
-                <a href="./homme.php"><img class="img-article" src="images/montrehomme.JPG" href="./homme.html" alt="Montre 1" ></a>
+                <a href="./homme.php"><img class="img-article" src="images/montrehomme.JPG" href="./homme.php" alt="Montre 1" ></a>
                   <figcaption>
                       <h3 id="texte900">Hommes</h3>
                   </figcaption>
@@ -64,22 +64,27 @@
       <div class="article container">
         <article class="col-12 col-md-4 col-xl-4 mb-4">
                 <figure id="montre1">
-                    <a href="./nouveaumodeleH.html"><img class="img-article" src="images/im3.png" alt="Nouveau modèle Homme"></a><br>
+                    <a href="./nouveaumodeleH.php"><img class="img-article" src="images/im3.png" alt="Nouveau modèle Homme"></a><br>
                     <figcaption class="px-3 py-2">
                         <h3 class="h5">Nouveau modèle Homme :</h3>
                         <p class="m-0">
-                          
-                        <small>
-                        <?php echo $products [`description`]; ?> 
-                        </small>
                         </p>  
+                        <h6> <small> 
+                                    <ul>
+                                    Diamètre du boîtier : 40 mm 
+                                    Epaisseur du boîtier : 8 mm
+                                    Mouvement : Ronda SP - Date heure (Quartz)
+                                    Taille du poignet : 16 à 21 cm
+                                    Garantie : 24 mois
+                                    </ul>  
+                                        </small> </h6> 
                            
                             <br>
                         <p class="m-0">
                             199€99
                         </p>
                        <!-- button panier il faut ajouter lien pour panier  -->
-                      <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.html" role="button"
+                      <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.php" role="button"
                         > <i class="fa fa-cart-arrow-down"></i>
                        </a> 
                        <a  class="btn btn-outline-dark btn-floating m-1" href="" role="button"
@@ -92,7 +97,7 @@
             </article>
             <article class="col-12 col-md-4 col-xl-4 mb-4">
                             <figure id="montre2">
-                                <a href="./nouveaumodeleF.html"><img class="img-article" src="images/im11.png" alt="Nouveau 1"></a><br>
+                                <a href="./nouveaumodeleF.php"><img class="img-article" src="images/im11.png" alt="Nouveau 1"></a><br>
                                 <figcaption class="px-3 py-2">
                                     <h3 class="h5">Nouveau modèle Femme :</h3>
                                     <p class="m-0">
@@ -110,7 +115,7 @@
                                         169€99
                                     </p>
                                    <!-- button panier il faut ajouter lien pour panier  -->
-                                  <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.html" role="button"
+                                  <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.php" role="button"
                                     > <i class="fa fa-cart-arrow-down"></i>
                                    </a> 
                                    <a  class="btn btn-outline-dark btn-floating m-1" href="" role="button"
@@ -121,7 +126,7 @@
             </article>
             <article class="col-12 col-md-4 col-xl-4 mb-4">
                             <figure id="montre3">
-                                <a href="./nouveaumodeleJ.html"><img class="img-article" src="images/im19.png" alt="Nouveau 1"></a><br>
+                                <a href="./nouveaumodeleJ.php"><img class="img-article" src="images/im19.png" alt="Nouveau 1"></a><br>
                                 <figcaption class="px-3 py-2">
                                     <h3 class="h5">Nouveau modèle Junior :</h3>
                                     <p class="m-0">
@@ -139,7 +144,7 @@
                                         69€99
                                     </p>
                                    <!-- button panier il faut ajouter lien pour panier  -->
-                                  <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.html" role="button"
+                                  <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.php" role="button"
                                     > <i class="fa fa-cart-arrow-down"></i>
                                    </a> 
                                    <a  class="btn btn-outline-dark btn-floating m-1" href="" role="button"

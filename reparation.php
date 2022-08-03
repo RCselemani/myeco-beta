@@ -1,10 +1,4 @@
-<?php
-    session_start();
-    require_once 'includes/database.php';
-    require_once 'includes/product.php';
 
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,37 +10,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    <!--- icon logo library bootstrap-->  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <!--- icon logo library bootstrap--> 
     <link rel="stylesheet" href="./reparation.css">
+    <link href="origine.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="base.css">
     
 
-</head>
-<body>
-    <!-- navbar -->
-<!-- <header>
-
-
-<section>
-    <nav class="navbar">
-        <div class="nav">
-            <img src="./images/logomyeco.png" class="logo" alt="">
-        <div class="nav-items">
-            <div class="search">
-                <input type="text" class="search-box" placeholder="Recherche ..">
-                <button class="search-btn">Recherche</button>
-            </div>
-            <a href="#"><img src="./images/user.png" alt=""></a>
-            <a href="#"><img src="./images/cart.png" alt=""></a>
-        </div>
-        </div>
-        <ul class="links-container">
-            <li class="link-item"><a href="homme.html" class="link">Hommes</a></li>
-            <li class="link-item"><a href="femme.html" class="link">Femmes</a></li>
-            <li class="link-item"><a href="junior.html" class="link">Juniors</a></li>
-            <li class="link-item"><a href="reparation.html" class="link">Services</a></li>
-            <li class="link-item"><a href="" class="link">Les origines de MyEco</a></li>
-        </ul>
-    </nav>
-</section>
-</header> -->
+    </head>
+  <body>
+  <?php
+        include 'includes/header.php';
+    ?>
+    <main>
+ 
 <h1>Des horlogers experts à votre service !</h1>
 <div>
 <p style="text-align: center;"><img class="image-reparation" src="images/reparation-horlogere-gif.gif" alt="cette image ne s'affiche pas correctement !" height="350px"></p>
@@ -187,49 +161,15 @@
             </figure>
         </article>
     </div>
-
-<!-- Footer -->
-<!-- 
-<section>
-  <footer>
-      <div class="footer-content"></div> -->
-      <!-- <img src="./images/logomyeco.png" class="logofooter" alt=""> -->
-      <!-- <div class="footer-ul">
-          <ul class="category">
-              <li class="category-title">Services</li>
-              <li><a href="#" class="footer-link">Service client</a></li>
-              <li><a href="#" class="footer-link">Service après-vente</a></li>
-              <li><a href="#" class="footer-link">Livraison</a></li>
-              <li><a href="#" class="footer-link">Faq</a></li>
-              <li><a href="#" class="footer-link">CGV</a></li>
-              <li><a href="#" class="footer-link">Contactez-nous</a></li>
-          </ul> -->
-          <!-- <ul class="category">
-              <li class="category-title">Services</li>
-              <li><a href="#" class="footer-link"></a>Service client</li>
-              <li><a href="#" class="footer-link"></a>Service après-vente</li>
-              <li><a href="#" class="footer-link">Livraison</a></li>
-              <li><a href="#" class="footer-link">Faq</a></li>
-              <li><a href="#" class="footer-link">CGV</a></li>
-              <li><a href="#" class="footer-link">Contactez-nous</a></li>
-              <li><a href="#" class="footer-link"></a></li>
-              <li><a href="#" class="footer-link"></a></li>
-              <li><a href="#" class="footer-link"></a></li>
-              <li><a href="#" class="footer-link"></a></li>
-          </ul> -->
-      <!-- </div>
-      <p class="footer-title">A propos de</p>
-      <p class="info">blablablablablablablablablaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-      <p class="info">Pour plus d'informations joignez-nous par mail : help@myeco.fr</p>
-      <p class="info">pour plus d'informations joignez-nous au 09.80.65.12.22</p>
-
-  </footer>
-</section> -->
+    </main>
+<?php
+        include 'includes/footer.php';
+    ?>  
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   
 </body>
+
 </html>

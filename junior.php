@@ -47,7 +47,7 @@
                             <p class="m-0">
                                 9€95
                             </p>
-                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.html" role="button"
+                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.php" role="button"
                             > <i class="fa fa-cart-arrow-down"></i>
                            </a> 
                            <a  class="btn btn-outline-dark btn-floating m-1" href="" role="button"
@@ -76,7 +76,7 @@
                             <p class="m-0">
                                 14€95
                             </p>
-                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.html" role="button"
+                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.php" role="button"
                             > <i class="fa fa-cart-arrow-down"></i>
                            </a> 
                            <a  class="btn btn-outline-dark btn-floating m-1" href="" role="button"
@@ -105,7 +105,7 @@
                             <p class="m-0">
                                 19€95
                             </p>
-                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.html" role="button"
+                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.php" role="button"
                             > <i class="fa fa-cart-arrow-down"></i>
                            </a> 
                            <a  class="btn btn-outline-dark btn-floating m-1" href="" role="button"
@@ -133,7 +133,7 @@
                              </ul>  
                                  </small> </h6> 
                             <p class="m-0">22€95</p>
-                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.html" role="button"
+                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.php" role="button"
                             > <i class="fa fa-cart-arrow-down"></i>
                            </a> 
                            <a  class="btn btn-outline-dark btn-floating m-1" href="" role="button"
@@ -161,7 +161,7 @@
                              </ul>  
                                  </small> </h6> 
                             <p class="m-0">34€99</p>
-                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.html" role="button"
+                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.php" role="button"
                             > <i class="fa fa-cart-arrow-down"></i>
                            </a> 
                            <a  class="btn btn-outline-dark btn-floating m-1" href="" role="button"
@@ -189,7 +189,7 @@
                              </ul>  
                                  </small> </h6> 
                             <p class="m-0">25€95</p>
-                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.html" role="button"
+                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.php" role="button"
                             > <i class="fa fa-cart-arrow-down"></i>
                            </a> 
                            <a  class="btn btn-outline-dark btn-floating m-1" href="" role="button"
@@ -217,7 +217,7 @@
                              </ul>  
                                  </small> </h6> 
                             <p class="m-0">9€99</p>
-                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.html" role="button"
+                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.php" role="button"
                             > <i class="fa fa-cart-arrow-down"></i>
                            </a> 
                            <a  class="btn btn-outline-dark btn-floating m-1" href="" role="button"
@@ -245,7 +245,7 @@
                              </ul>  
                                  </small> </h6> 
                             <p class="m-0">9€99</p>
-                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.html" role="button"
+                            <a  class="btn btn-outline-dark btn-floating m-1" href="checkout.php" role="button"
                             > <i class="fa fa-cart-arrow-down"></i>
                            </a> 
                            <a  class="btn btn-outline-dark btn-floating m-1" href="" role="button"
